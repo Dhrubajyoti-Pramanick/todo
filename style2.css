@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+
+body {
+    background-image: url("./bg2.jpeg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    
+}
+
+#con {
+    display: flex;
+    border: 1px solid black;
+}
+li {
+    list-style: none;
+    text-align: center;
+}
+.todo-container form{
+    margin-top: 30px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.input{
+    padding-top: 10px;
+    display: flex;
+    gap: 4px;
+}
+
+#inputBox{
+    width: 35vw;
+    height: 5vh;
+}
+
+#add{
+    height: 5.5vh;
+    width: 5vw;
+}
+
+button:active{
+    background-color: black;
+}
+
+
+#a {
+    width: 100%;
+}
+
+#location {
+    display: flex;
+    flex-direction: column;
+}
+.buttons {
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+button {
+    padding: 6px;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    /* border-style: none; */
+    border-radius: 2px;
+}
+#inputBox1{
+    width: 35vw;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box {
+    display: flex;
+    gap: 5px;
+}
+
+#first {
+    width: 35vw;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
